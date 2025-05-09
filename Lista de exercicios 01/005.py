@@ -1,0 +1,15 @@
+#5. Ler dois valores numéricos e na sequência calcular e mostrar:
+#a) A soma destes valores
+#b) O produto deles
+#c) O quociente entre eles.
+
+num1 = int(input('Me informe o primeiro número:  '))
+num2 = int(input('Me informe o segundo número:  '))
+
+soma = num1 + num2
+produto = num1 * num2 
+quociente = num1 / num2 
+
+print(f"A soma dos dois números informados é: {soma}")
+print(f"O produto dos dois números informados é: {produto}")
+print(f"O quociente dos dois números informados é: {quociente:.1f}")
